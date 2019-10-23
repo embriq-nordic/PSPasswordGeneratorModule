@@ -136,7 +136,7 @@ function New-Password {
             }
 
             Foreach ($i in 1..$Count) {
-                $Keyspace = New-Keyspace $KeyspaceOptions
+                $Keyspace = Get-Keyspace $KeyspaceOptions
                 $Password = @()
     
                 If ($Prefix) {

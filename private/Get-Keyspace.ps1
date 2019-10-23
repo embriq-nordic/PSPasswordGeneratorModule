@@ -1,4 +1,4 @@
-function New-Keyspace {
+function Get-Keyspace {
     [CmdletBinding()]
     param (
         [Parameter()]

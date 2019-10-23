@@ -15,7 +15,7 @@ RootModule = 'Embriq.PasswordGenerator.psm1'
 ModuleVersion = '0.0.1'
 
 # Supported PSEditions
-# CompatiblePSEditions = @()
+CompatiblePSEditions = @('PSEdition_Desktop', 'PSEdition_Core')
 
 # ID used to uniquely identify this module
 GUID = '522eff12-e6e6-4ec6-8d20-9bab8f5117d4'
